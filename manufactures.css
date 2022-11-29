@@ -1,0 +1,27 @@
+.category {
+  margin-left: 100px;
+}
+
+.category li {
+  margin-bottom: 20px;
+  list-style-type: none;
+  color: #0032b8;
+  font-weight: 1000;
+  border-bottom: inset;
+  border-color: #f2ee037d;
+  width: 50px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #0032b8;
+  font-weight: 1000;
+}
+
+small {
+  font-size: 12px;
+}

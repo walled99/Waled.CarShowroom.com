@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchase Order</title>
+    <link rel="icon" type="image/x-icon" href="images/showroom.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="formStyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="headStyle">
+      <h1>
+        <img id="logo" src="images/showroom.png" alt="logo" /> Waled Car
+        ShowRoom
+      </h1>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="manufactures.html">Manufactures</a></li>
+        <li><a href="typeCars.html">car Models</a></li>
+        <li><a href="form.html">Buy</a></li>
+        <li><a href="ContactPage.html">Contact us</a></li>
+      </ul>
+    </div>
+    <hr />
+
+    <h2>Fill this form to buy any car:</h2>
+    <form action="http://localhost/server/myphp.php" method="post">
+      <div>
+        <div>
+          <label>Car Manufactuer :</label>
+          <input name="manufactuer" type="text" placeholder="EX: BMW" required /
+          >
+        </div>
+        <div>
+          <label>Car Model Name :</label>
+          <input name="model" type="text" placeholder="EX:BMW X1  " required />
+        </div>
+        <div>
+          <label>Your Address :</label>
+          <input name="address" type="text" required />
+        </div>
+        <div>
+          <label>Your Email : </label>
+          <input
+            name="email"
+            type="text"
+            placeholder=" Example@gmail.com"
+            required
+          />
+        </div>
+        <div>
+          <label>Contact Number :</label>
+          <input
+            name="phone"
+            type="text"
+            placeholder="phone number..."
+            required
+          />
+        </div>
+        <button type="submit" class="submitButton">
+          <img src="images/steering-wheel.png" class="sumbitImage" />
+          Submit
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.sportCar {
+  width: 500px;
+  height: 500px;
+}
+.bigBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration-line: none;
+  color: #031d7a;
+}
+
+.childDiv {
+  background-color: #fffb83fa;
+  padding: 40px;
+}
+
+h2 {
+  color: rgb(21 20 62);
+}
+
+.emotion {
+  width: 55px;
+  height: 55px;
+}
+
+.greeting {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+}

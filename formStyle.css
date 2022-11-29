@@ -1,0 +1,57 @@
+body {
+  background-color: #e9e1f9e2;
+}
+
+h2 {
+  padding: 20px;
+  margin-left: 45px;
+  color: #175674ba;
+  margin-top: 50px;
+}
+
+hr {
+  color: rgb(53, 90, 118);
+  opacity: 70%;
+  width: 90%;
+  margin-left: 69px;
+}
+label {
+  margin-left: 68px;
+}
+
+input {
+  margin-left: 68px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  border: none;
+  background-color: #d7d1ed;
+  outline-color: #939cbba6;
+  outline-style: solid;
+}
+
+.submitButton {
+  margin: 40px 68px;
+  border: none;
+  background-color: #40b0ff6b;
+  border-radius: 10px;
+  width: 109px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.sumbitImage {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 6px;
+  margin-bottom: 20px;
+}

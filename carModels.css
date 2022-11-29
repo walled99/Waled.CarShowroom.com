@@ -1,0 +1,55 @@
+#div,
+#div1,
+#div2,
+#div4,
+#div5,
+#div3 {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+button {
+  visibility: visible;
+  padding: 5px px;
+  background: cornsilk;
+  border: outset;
+  border-width: 2px;
+}
+p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.img,
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+  width: 180px;
+  height: 180px;
+}
+/*
+.span1 {
+  display: none;
+}
+*/
+.carContainer {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 30px;
+  padding: 25px;
+}
+small {
+  font-size: x-small;
+}
